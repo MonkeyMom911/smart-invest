@@ -138,7 +138,7 @@
             </div>
             <div class="flex justify-center md:w-1/2 md:justify-end">
                 <div class="floating">
-                    <img src="{{ asset('illustration.png') }}" alt="Hero Illustration" class="max-w-xs md:max-w-md lg:max-w-lg">
+                    <img src="https://res.cloudinary.com/dypwu4t4n/image/upload/v1751453968/Illustration_rsivtc.png" alt="Hero Illustration" class="max-w-xs md:max-w-md lg:max-w-lg">
                 </div>
             </div>
         </div>
