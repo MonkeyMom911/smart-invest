@@ -154,7 +154,7 @@
             <div class="grid max-w-6xl grid-cols-1 gap-10 px-4 mx-auto md:grid-cols-3">
                 <div class="p-8 bg-card-dark rounded-2xl card-hover">
                     <div class="flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl">
-                        <img src="{{ asset('icon1.png') }}" class="w-8 h-8" alt="Reliable">
+                        <img src="https://res.cloudinary.com/dypwu4t4n/image/upload/v1751453967/Icon1_c7wsfl.png" class="w-8 h-8" alt="Reliable">
                     </div>
                     <h3 class="mb-4 text-xl font-semibold text-neon">Reliable Guarantee</h3>
                     <p class="leading-relaxed text-gray-300">We have been verified as trusted and provide 100% guarantee for all investments</p>
@@ -162,7 +162,7 @@
 
                 <div class="p-8 bg-card-dark rounded-2xl card-hover">
                     <div class="flex items-center justify-center w-16 h-16 mx-auto mb-6 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl">
-                        <img src="{{ asset('icon2.png') }}" class="w-8 h-8" alt="Authentic">
+                        <img src="https://res.cloudinary.com/dypwu4t4n/image/upload/v1751453968/Icon2_miluga.png" class="w-8 h-8" alt="Authentic">
                     </div>
                     <h3 class="mb-4 text-xl font-semibold text-neon">Authentic Products</h3>
                     <p class="leading-relaxed text-gray-300">Our investment products are reliable, safe, and thoroughly vetted</p>
