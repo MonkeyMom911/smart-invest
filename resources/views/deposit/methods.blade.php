@@ -34,7 +34,7 @@
             <p class="font-semibold text-[#f59e0b]">BNI</p>
         </button>
         <button onclick="showPayment('qris')" class="p-4 text-center bg-[#0f172a] border border-[#334155] rounded-lg hover:bg-[#1e293b] transition">
-            <img src="{{ asset('qris.png') }}" class="h-10 mx-auto mb-2" alt="QRIS">
+            <img src="{{ asset('qris.jpg') }}" class="h-10 mx-auto mb-2" alt="QRIS">
             <p class="font-semibold text-[#34d399]">QRIS</p>
         </button>
     </div>
