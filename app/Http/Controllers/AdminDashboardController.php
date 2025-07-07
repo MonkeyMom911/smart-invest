@@ -24,7 +24,7 @@ class AdminDashboardController extends Controller
 
         $monthlyUserData = array_replace(array_fill(1, 12, 0), $monthlyUserData); // Lengkapi bulan kosong
 
-        // Tambahkan baris ini:
+        // Menggunakan with('user') untuk Eager Loading
         $depositRequests = DepositRequest::with('user')->where('status', 'pending')->latest()->get();
 
         return view('admin.dashboard', compact(
@@ -32,7 +32,7 @@ class AdminDashboardController extends Controller
             'totalUsers',
             'totalTransactions',
             'monthlyUserData',
-            'depositRequests' // Ini penting
+            'depositRequests'
         ));
     }
 }
