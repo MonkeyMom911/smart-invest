@@ -15,6 +15,7 @@ class InvestmentController extends Controller
 
     public function index(Request $request)
     {
+        // Menggunakan with('category') untuk Eager Loading
         $query = Investment::with('category')
             ->withCount([
                 'transactions as investors_count' => function ($query) {
@@ -33,8 +34,7 @@ class InvestmentController extends Controller
         return view('admin.investments.index', compact('investments', 'categories'));
     }
 
-
-
+    // ... (sisa kode tidak berubah)
     public function create()
     {
         $categories = Category::all();
