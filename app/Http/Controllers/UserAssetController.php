@@ -17,7 +17,7 @@ class UserAssetController extends Controller
         // Ambil semua kategori untuk dropdown filter
         $categories = Category::all();
 
-        // Ambil transaksi user
+        // Ambil transaksi user dengan eager loading relasi investment dan category-nya
         $query = InvestmentTransaction::with('investment.category')
                     ->where('user_id', $userId)
                     ->latest();
